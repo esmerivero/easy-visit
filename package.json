@@ -1,0 +1,21 @@
+{
+  "name": "proyecto-5-easyvisit",
+  "version": "0.1.0",
+  "description": "Proyecto de registro de visitantes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Registro",
+    "Visitantes",
+    "App",
+    "Digital"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^4.6.7",
+    "xoauth2": "^1.2.0"
+  }
+}

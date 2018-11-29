@@ -1,0 +1,19 @@
+#logo{
+    height: 6em;
+    width: 6em; 
+}
+
+#margin{
+    margin-top: 5%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color:#3a627d;
+}
+
+table{
+	text-align: justify;
+	font-family: 'Raleway', sans-serif;	
+}

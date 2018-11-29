@@ -1,0 +1,24 @@
+#user{
+    width: 25%;
+    height: 80%;
+}
+
+#logo{
+    margin-top: 5%;
+    align-content: center;
+}
+
+#boton{
+    margin-top: 10%;
+    align-content: center;
+}
+
+#texto{
+    margin-top: 5%;
+}
+
+body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color:#3a627d;
+}

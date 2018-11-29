@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="noindex">
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/camera.css" media="all" />
+  <title>Foto_del_visitante</title>
+</head>
+
+<body>
+  <h3>Sonríe a la cámara</h3>
+  <section>
+    <div class="container">
+      <div class="app">
+        <a href="#" id="start-camera" class="visible">Iniciar Demo</a>
+        <video id="camera-stream"></video>
+        <img id="snap">
+        <p id="error-message"></p>
+        <div class="controls">
+          <a href="#" id="delete-photo" title="Eliminar Foto" class="disabled">
+            <i class="material-icons">delete</i>
+          </a>
+          <a href="#" id="take-photo" title="Tomar Foto">
+            <i class="material-icons">camera_alt</i>
+          </a>
+          <a href="#" id="download-photo" download="foto.jpg" title="Descargar Foto" class="disabled">
+            <i class="material-icons">file_download</i>
+          </a>
+        </div>
+        <canvas></canvas>
+      </div>
+    </div>
+    <center>
+    <button id="sending" class="btn waves-effect waves-light" type="submit" name="action"> <a href="../views/badge.html">Enviar
+      </a><i class="material-icons right">send</i>
+    </button>
+  </center>
+  </section>
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script src="../js/camera.js"></script>
+</body>
+</html>

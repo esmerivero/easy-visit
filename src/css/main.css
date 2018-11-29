@@ -1,0 +1,28 @@
+h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color:#3a627d;
+}
+
+h4 {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.typografia {
+  font-family: 'Raleway', sans-serif;
+}
+
+.btnColor {
+  background-color: #3a627d;
+}
+
+.divSiguiente {
+  display: inline-flex;
+  margin: auto;
+}
+
+.btn-loginaitor{
+ background-color: #3a627d;
+}
+

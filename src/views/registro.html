@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Registrar</title>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="../images/logoeasyvisit.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h3>Bienvenidx</h3>
+                <h4>¡Registra tu visita!</h4>
+            </div>
+        </div>
+        <section class="row">
+            <section class="col-8">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="name" type="text" class="validate typografia" required>
+                                    <label for="first_name" class="typografia">Nombre Completo</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="email" type="email" class="validate typografia" required>
+                                    <label for="email" class="typografia">Correo Electrónico</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="company" type="text" class="validate typografia" required>
+                                    <label for="company" class="typografia">Empresa</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="personVisit" type="text" class="validate typografia" required>
+                                    <label for="person_visit" class="typografia">Anfitrión</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 divSiguiente">
+                                    <button id="btnRegistrar" type="button" name="button" class="waves-effect btn-large typografia btnColor divSiguiente">Siguiente</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.js"></script>
+    <script src="../js/firebase.js"></script>
+    <script src="../js/registro.js"></script>
+</body>
+</html>
